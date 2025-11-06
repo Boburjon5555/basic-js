@@ -11,7 +11,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node --test --test-reporter tap"
+    "test":  "mocha test --reporter spec"
+
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/AlreadyBored/basic-js/issues"
   },
-  "homepage": "https://github.com/AlreadyBored/basic-js#readme"
+  "homepage": "https://github.com/AlreadyBored/basic-js#readme",
+  "dependencies": {
+    "mocha": "^11.7.5"
+  }
 }
